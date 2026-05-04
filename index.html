@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet" />
 
   <style>
-    /* âââââââââââââââââââââââââââââââââââââââââââ
+    /* ââââââââââââââââââââââhâââââââââââââââââââââ
        DESIGN TOKENS
     âââââââââââââââââââââââââââââââââââââââââââ */
     :root {
@@ -805,7 +805,7 @@
         <div class="form-grid">
 
           <div class="field">
-            <label for="currentChapter">Current Chapter</label>
+            <label for="referencePerson">Reference Person <span class="req">*</span></label>            <input type="text" id="referencePerson" name="referencePerson" placeholder="Chapter/Council President" required />
             <input type="text" id="currentChapter" name="currentChapter" placeholder="e.g. Beta Gamma" />
           </div>
 
@@ -964,7 +964,7 @@
         university:      form.university.value.trim(),
         memberId:        form.memberId.value.trim(),
         yearInitiated:   form.yearInitiated.value.trim(),
-        currentChapter:  form.currentChapter.value.trim(),
+        referencePerson: form.referencePerson.value.trim(),        currentChapter:  form.currentChapter.value.trim(),
         chapterAddress:  form.chapterAddress.value.trim(),
         positionInfo:    form.positionInfo.value.trim(),
         status:          form.status.value,
